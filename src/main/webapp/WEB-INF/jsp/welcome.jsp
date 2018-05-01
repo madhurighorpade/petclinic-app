@@ -13,7 +13,7 @@
 <div class="container">
     <jsp:include page="fragments/bodyHeader.jsp"/>
     <h2><fmt:message key="welcome"/></h2>
-    <spring:url value="http://www.sittersolutions.net/wp-content/uploads/2014/02/pet-sitting-pg.jpg" htmlEscape="true" var="petsImage"/>
+    <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
     <img src="${petsImage}"/>
 
     <jsp:include page="fragments/footer.jsp"/>
