@@ -20,7 +20,7 @@
     <form:form modelAttribute="owner" action="${fn:escapeXml(formUrl)}" method="get" class="form-horizontal"
                id="search-owner-form">
         <fieldset>
-            <div class="control-group" id="lastName">
+            <div class="control-group" id="ln">
                 <label class="control-label">Last name </label>
                 <form:input path="lastName" size="30" maxlength="80"/>
                 <span class="help-inline"><form:errors path="*"/></span>
