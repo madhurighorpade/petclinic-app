@@ -25,9 +25,9 @@
                 <form:input path="lastName" size="30" maxlength="80"/>
                 <span class="help-inline"><form:errors path="*"/></span>
             </div>
-            <div class="form-actions">
-                <button type="submit">ABCD</button>
-            </div>
+
+
+
         </fieldset>
     </form:form>
 
