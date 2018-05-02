@@ -26,7 +26,7 @@
                 <span class="help-inline"><form:errors path="*"/></span>
             </div>
             <div class="form-actions">
-                <button type="submit">Find Owner</button>
+                <button type="submit">ABCD</button>
             </div>
         </fieldset>
     </form:form>
